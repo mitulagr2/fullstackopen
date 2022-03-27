@@ -52,14 +52,14 @@ const App = () => {
           )
         ) {
           personsService
-            .update(i + 1, {
+            .update(persons[i].id, {
               ...persons[i],
               number: newNumber,
             })
             .then((updatedPerson) => {
               setPersons(
                 persons.map((person) =>
-                  person.id !== i + 1 ? person : updatedPerson
+                  person.id !== persons[i].id ? person : updatedPerson
                 )
               );
               setNewName("");
@@ -79,21 +79,20 @@ const App = () => {
   };
 
   const handleDeletePerson = (id) => {
-    if (window.confirm(`Delete ${persons[id - 1].name} ?`))
+    const thisPerson = persons.find((person) => person.id === id);
+    if (window.confirm(`Delete ${thisPerson.name} ?`))
       personsService
         .delete(id)
-        .then(() => setPersons(persons.filter((persons) => persons.id !== id)))
+        .then(() => setPersons(persons.filter((person) => person.id !== id)))
         .catch(() => {
           setNotif({
             type: "error",
-            message: `Information of ${
-              persons[id - 1].name
-            } has already been removed from server`,
+            message: `Information of ${thisPerson.name} has already been removed from server`,
           });
           setTimeout(() => {
             setNotif({ ...notif, type: null });
           }, 5000);
-          setPersons(persons.filter((persons) => persons.id !== id));
+          setPersons(persons.filter((person) => person.id !== id));
         });
   };
 
