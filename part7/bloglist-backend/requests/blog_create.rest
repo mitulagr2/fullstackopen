@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs/
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaWQiOiI2MjQyZDVlZTcyMzExMGI3YzVjYWViOTMiLCJpYXQiOjE2NDg1NzU1OTQsImV4cCI6MTY0ODU3OTE5NH0.C-5-VaOyfcwjs1xdeaMzkmPytAJFuC15BKkgYY7avMI
+
+{
+    "title": "Beyond Tech: Growwing as an Engineer",
+    "author": "Shivang Agrawal",
+    "url": "https://tech.groww.in/beyond-tech-growwing-as-an-engineer-c3168cbbc214",
+    "likes": 228
+}

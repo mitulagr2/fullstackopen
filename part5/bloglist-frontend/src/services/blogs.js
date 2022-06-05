@@ -29,13 +29,19 @@ const blogService = {
       throw exception.response.data.error;
     }
   },
-  update: async (id, likes) => {
+  update: async (blog) => {
     const config = {
       headers: { Authorization: token },
     };
 
     try {
-      return (await axios.put(`${baseUrl}/${id}`, { likes }, config)).data;
+      return (
+        await axios.put(
+          `${baseUrl}/${blog.id}`,
+          { ...blog, likes: blog.likes + 1 },
+          config
+        )
+      ).data;
     } catch (exception) {
       throw exception.response.data.error;
     }

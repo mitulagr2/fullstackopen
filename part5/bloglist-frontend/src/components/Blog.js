@@ -20,7 +20,7 @@ const Blog = ({ blog, curUser, handleLike, handleDelete }) => {
         <button
           id="like-button"
           onClick={() => {
-            handleLike(blog.id, blog.likes + 1);
+            handleLike(blog);
           }}
         >
           {" "}

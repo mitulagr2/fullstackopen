@@ -37,18 +37,12 @@ blogsRouter.delete("/:id", async (req, res) => {
   res.status(400).json({ error: "incorrect user" });
 });
 
-blogsRouter.put("/:id", async (req, res) => {
-  const blog = {
-    title: req.body.title,
-    author: req.body.author,
-    url: req.body.url,
-    likes: req.body.likes,
-    user: req.body.user,
-  };
-
-  const updatedBlog = await Blog.findByIdAndUpdate(req.params.id, blog, {
-    new: true,
-  });
+blogsRouter.patch("/:id", async (req, res) => {
+  const updatedBlog = await Blog.findOneAndUpdate(
+    { _id: req.params.id },
+    { $inc: { likes: 1 } },
+    { new: true }
+  );
   res.json(updatedBlog);
 });
 

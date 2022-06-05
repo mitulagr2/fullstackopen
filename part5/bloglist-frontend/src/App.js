@@ -73,11 +73,11 @@ const App = () => {
     }
   };
 
-  const handleLike = async (id, newLikes) => {
+  const handleLike = async (blog) => {
     try {
-      await blogService.update(id, newLikes);
+      await blogService.update(blog.id, blog);
       const blogsNow = [...blogs];
-      blogsNow.find((b) => b.id === id).likes = newLikes;
+      blogsNow.find((b) => b.id === blog.id).likes += 1;
       setBlogs(blogsNow.sort((a, b) => b.likes - a.likes));
     } catch (exception) {
       setNotif({ type: "error", message: exception });
