@@ -115,7 +115,7 @@ This is my course submission repository for [The Full Stack Open 2022](https://f
 
 Annnnnnd, a lot more!!
 
-# 💌 Other Full Stack Open Courses I undertook
+# 💌 Other Full Stack Open Repositories
 
 \- Full Stack Open 2022 - [mitulagrofficial/phonebook-fullstackopen](https://github.com/mitulagrofficial/phonebook-fullstackopen)
 
