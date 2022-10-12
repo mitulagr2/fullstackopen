@@ -115,6 +115,16 @@ This is my course submission repository for [The Full Stack Open 2022](https://f
 
 Annnnnnd, a lot more!!
 
+# 💌 Other Full Stack Open Courses I undertook
+
+\- Full Stack Open 2022 - [mitulagrofficial/phonebook-fullstackopen](https://github.com/mitulagrofficial/phonebook-fullstackopen)
+
+\- Full Stack Open React Native 2021 - [mitulagrofficial/fso-rate-repository-app](https://github.com/mitulagrofficial/fso-rate-repository-app)
+
+\- Full Stack Open CI/CD - [mitulagrofficial/full-stack-open-pokedex](https://github.com/mitulagrofficial/full-stack-open-pokedex)
+
+\- Full Stack Open Containers - [mitulagrofficial/fso-containers-and-orchestration](https://github.com/mitulagrofficial/fso-containers-and-orchestration)
+
 # Thank you very much!
 
-Open to any suggestions on how to make this better! Feel free to fork the repo - Much appreciated!
+Open to any suggestions on how to make this better! Much appreciated!
