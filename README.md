@@ -4,6 +4,23 @@ This is my course submission repository for [The Full Stack Open 2022](https://f
 
 ![certificate-fullstack](https://user-images.githubusercontent.com/69587385/195052400-daa40801-70de-4c7f-8fd9-1fffc0366be7.png)
 
+Table of contents
+=================
+
+<!--ts-->
+   * [💡 What I Learnt](#-what-i-learnt)
+      * [Part 1 - Introduction to React](#part-1---introduction-to-react)
+      * [Part 2 - Communicating with server](#part-2---communicating-with-server)
+      * [Part 3 - Programming a server with NodeJS and Express](#part-3---programming-a-server-with-nodejs-and-express)
+      * [Part 4 - Testing Express servers, user administration](#part-4---testing-express-servers-user-administration)
+      * [Part 5 - Testing React apps](#part-5---testing-react-apps)
+      * [Part 6 - State management with Redux](#part-6---state-management-with-redux)
+      * [Part 7 - React router, custom hooks, styling app with CSS and webpack](#part-7---react-router-custom-hooks-styling-app-with-css-and-webpack)
+      * [Part 8 - GraphQL](#part-8---graphql)
+      * [Part 9 - TypeScript](#part-9---typescript)
+   * [💌 Other Full Stack Open Repositories](#-other-full-stack-open-repositories)
+<!--te-->
+
 # 💡 What I Learnt
 
 ## Part 1 - Introduction to React
