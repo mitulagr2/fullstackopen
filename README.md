@@ -134,13 +134,13 @@ Annnnnnd, a lot more!!
 
 # 💌 Other Full Stack Open Repositories
 
-\- Full Stack Open 2022 - [mitulagrofficial/phonebook-fullstackopen](https://github.com/mitulagrofficial/phonebook-fullstackopen)
+\- Full Stack Open 2022 - [mitulagr2/phonebook-fullstackopen](https://github.com/mitulagr2/phonebook-fullstackopen)
 
-\- Full Stack Open React Native 2021 - [mitulagrofficial/fso-rate-repository-app](https://github.com/mitulagrofficial/fso-rate-repository-app)
+\- Full Stack Open React Native 2021 - [mitulagr2/fso-rate-repository-app](https://github.com/mitulagr2/fso-rate-repository-app)
 
-\- Full Stack Open CI/CD - [mitulagrofficial/full-stack-open-pokedex](https://github.com/mitulagrofficial/full-stack-open-pokedex)
+\- Full Stack Open CI/CD - [mitulagr2/full-stack-open-pokedex](https://github.com/mitulagr2/full-stack-open-pokedex)
 
-\- Full Stack Open Containers - [mitulagrofficial/fso-containers-and-orchestration](https://github.com/mitulagrofficial/fso-containers-and-orchestration)
+\- Full Stack Open Containers - [mitulagr2/fso-containers-and-orchestration](https://github.com/mitulagr2/fso-containers-and-orchestration)
 
 # Thank you very much!
 
